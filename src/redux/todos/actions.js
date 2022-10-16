@@ -49,3 +49,9 @@ export const clearCompleted = () => {
         type: CLEARCOMPLETED,
     };
 };
+
+export const empty = () => {
+    return {
+        type: CLEARCOMPLETED,
+    };
+};
